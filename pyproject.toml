@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avandra"
+version = "0.1.0"
+description = "A headless code and document editing agent"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "John P Mayer, Jr"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "mcp-agent",
+    "mcp",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/avandra"
+"Bug Tracker" = "https://github.com/yourusername/avandra/issues"
+
+[tool.setuptools]
+packages = ["avandra", "avandra.servers"]
