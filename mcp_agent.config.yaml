@@ -1,0 +1,11 @@
+execution_engine: asyncio
+logger:
+  type: console
+  level: info
+  path: "./mcp-agent.log"
+
+mcp:
+  servers:
+    filesystem:
+      command: "npx"
+      args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
