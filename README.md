@@ -8,6 +8,8 @@ Diagnosing,
 Reflecting,
 Authoring
 
+(It's also a deity in DnD, also known as "The Changebringer")
+
 ## Goals
 
 `avandra` is a **headless** code and document editing agent.
