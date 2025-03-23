@@ -21,6 +21,7 @@ classifiers = [
 dependencies = [
     "mcp-agent",
     "mcp",
+    "typer",
 ]
 
 [project.optional-dependencies]
