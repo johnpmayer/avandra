@@ -9,3 +9,7 @@ mcp:
     filesystem:
       command: "npx"
       args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
+
+openai:
+  default_model: "anthropic/claude-3.7-sonnet"
+  base_url: "https://openrouter.ai/api/v1"
