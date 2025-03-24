@@ -26,7 +26,7 @@ async def run_avandra(task_file: Path):
             name="avandra",
             instruction="""You are Avandra, a headless code and document editing agent.
             Your job is to assist with code and document editing tasks.""",
-            server_names=["filesystem"],  # Add other servers as needed
+            server_names=["filesystem", "zoekt"],  # Add other servers as needed
         )
 
         async with main_agent:

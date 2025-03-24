@@ -9,6 +9,12 @@ mcp:
     filesystem:
       command: "npx"
       args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
+    qdrant:
+      command: "uvx"
+      args: ["mcp-server-qdrant"]
+    zoekt:
+      command: "python"
+      args: ["-m", "avandra.servers.zoekt"]
 
 openai:
   default_model: "anthropic/claude-3.7-sonnet"
