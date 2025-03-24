@@ -1,0 +1,5 @@
+Right now, the system prompt/instructions are hard-coded in the application
+
+Current task already in progress: Modify this so that it's passed in as an *optional* command line flag.
+
+Don't change anything, but see if we're done.
